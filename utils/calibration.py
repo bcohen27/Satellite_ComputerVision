@@ -7,7 +7,7 @@ Created on Mon Mar 16 17:44:19 2020
 
 import math
 import ee
-from stats import normalize
+from utils.stats import normalize
 
 def clamp_and_scale(img, bands, p, AOI):
   """ 
